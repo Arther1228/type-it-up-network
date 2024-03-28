@@ -11,6 +11,8 @@
 
     <modules>
         <module>websocket-demo</module>
+        <module>socket-demo</module>
+        <module>http-demo</module>
     </modules>
 
     <properties>
