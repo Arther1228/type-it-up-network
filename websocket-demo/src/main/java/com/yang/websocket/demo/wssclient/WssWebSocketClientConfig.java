@@ -39,6 +39,6 @@ public class WssWebSocketClientConfig {
     }
 
     public static URI getWebSocketURI() {
-        return URI.create("wss://10.8.0.60/sub/subscriptions?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImQ0NjEzYWZlLTRlOTUtMTFlYy1iMmZiLWVmOTgxNmVkYzNmZCIsImNvbnRyb2xsZXJfaWQiOiJsb2NhbC1tYXN0ZXIiLCJpYXQiOjE3MjE5MDQ1ODUsImV4cCI6MTc1MzQ0MDU4NX0.vS4zivJ_KA4hLzzaXbZqzbI90yj7EIXPsjSsqpllV90");
+        return URI.create("wss://10.8.0.60/sub/subscriptions?token=");
     }
 }
