@@ -1,9 +1,8 @@
-package com.yang.websocket.demo;
+package com.yang.websocket.demo.wssclient1;
 
 import java.net.URI;
 import java.net.URISyntaxException;
 
-import com.yang.websocket.demo.wssclient.SSLWebSocketClient;
 import org.java_websocket.handshake.ServerHandshake;
 
 public class WssTest {

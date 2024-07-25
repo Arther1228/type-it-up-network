@@ -1,4 +1,4 @@
-package com.yang.websocket.demo.wssclient;
+package com.yang.websocket.demo.wssclient1;
 
 import java.net.URI;
 import java.security.cert.CertificateException;

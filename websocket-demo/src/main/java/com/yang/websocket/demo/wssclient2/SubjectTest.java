@@ -1,4 +1,4 @@
-package com.yang.websocket.demo;
+package com.yang.websocket.demo.wssclient2;
 
 import lombok.extern.slf4j.Slf4j;
 import org.java_websocket.client.WebSocketClient;
@@ -19,7 +19,7 @@ import java.util.Date;
 @Slf4j
 public class SubjectTest {
 
-    public void testWssWithWebSocketServer() throws Exception {
+    public static void testWssWithWebSocketServer() throws Exception {
         TrustManager trustManager = new X509ExtendedTrustManager() {
             @Override
             public void checkClientTrusted(X509Certificate[] chain, String authType, Socket socket) throws CertificateException {
@@ -90,5 +90,13 @@ public class SubjectTest {
         webSocketClient.send(simpleDateFormat.format(new Date()));
         //断开连接
         webSocketClient.closeBlocking();
+    }
+
+    public static void main(String[] args) {
+        try {
+            testWssWithWebSocketServer();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }
